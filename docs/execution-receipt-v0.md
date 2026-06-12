@@ -5,6 +5,7 @@
 Define the normalized post-execution object that records **what actually happened** when a Synthference request was routed and executed.
 
 If the request envelope is the invocation object, the execution receipt is the canonical outcome object that feeds settlement.
+Its interpretation should follow the [Settlement State Machine v0](./settlement-state-machine-v0.md).
 
 ---
 

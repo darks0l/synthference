@@ -198,6 +198,7 @@ Turn execution results into finalized right state transitions.
 - apply refunds, credits, or reissuance policies
 - open and close disputes
 - finalize ledger/accounting state
+- execute the canonical settlement state machine against receipts
 
 ### Settlement outputs
 - balance updates
@@ -324,8 +325,8 @@ That gives the cleanest implementation path and still supports markets and vault
 
 ## Near-term repo follow-ups
 
-- define settlement state machine
 - define supplier capability taxonomy
 - define dispute boundary and proof minimums
 - map request envelope validation into router stages
 - define receipt amendment / finalization rules
+- define registry event model
