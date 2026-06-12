@@ -98,13 +98,16 @@ It may be a **synthetic right to future compute**, with programmable routing and
 - [Settlement State Machine v0](./docs/settlement-state-machine-v0.md)
 - [System Modules v0](./docs/system-modules-v0.md)
 - [Supplier Capability Taxonomy v0](./docs/supplier-capability-taxonomy-v0.md)
+- [Capacity Assurance Model v0](./docs/capacity-assurance-model-v0.md)
+- [Proof Requirements v0](./docs/proof-requirements-v0.md)
+- [Worked Examples v0](./docs/worked-examples-v0.md)
 
 ## Next
 
-- define settlement proofs and dispute boundaries
 - map router policy to agent-native execution
 - compare issuance paths across centralized and decentralized supply
 - define registry event model + amendment/finalization rules
 - define right packaging and secondary market semantics
+- add lifecycle diagrams and example flows to tighten implementer guidance
 
 Built with teeth. 🌑
