@@ -101,10 +101,10 @@ It may be a **synthetic right to future compute**, with programmable routing and
 - [Capacity Assurance Model v0](./docs/capacity-assurance-model-v0.md)
 - [Proof Requirements v0](./docs/proof-requirements-v0.md)
 - [Worked Examples v0](./docs/worked-examples-v0.md)
+- [Agent Execution Policy v0](./docs/agent-execution-policy-v0.md)
 
 ## Next
 
-- map router policy to agent-native execution
 - compare issuance paths across centralized and decentralized supply
 - define registry event model + amendment/finalization rules
 - define right packaging and secondary market semantics
