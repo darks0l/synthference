@@ -1,4 +1,18 @@
-# Synthference
+<p align="center">
+  <img src="./assets/synthference-banner.png" alt="Synthference banner" width="900" />
+</p>
+
+<h3 align="center">Built by DARKSOL dYO`</h3>
+
+<h1 align="center">Synthference</h1>
+
+<p align="center">
+  <img alt="Status" src="https://img.shields.io/badge/status-concept%20spec-ffb347?style=for-the-badge" />
+  <img alt="Category" src="https://img.shields.io/badge/category-compute%20rights-1f2937?style=for-the-badge" />
+  <img alt="Focus" src="https://img.shields.io/badge/focus-routing%20%2B%20settlement-111827?style=for-the-badge" />
+  <img alt="Spec" src="https://img.shields.io/badge/spec-v0-7c3aed?style=for-the-badge" />
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-gold?style=for-the-badge" />
+</p>
 
 **Synthetic inference rights** - a general primitive for representing, routing, and settling future compute access.
 
@@ -92,4 +106,4 @@ It may be a **synthetic right to future compute**, with programmable routing and
 - compare issuance paths across centralized and decentralized supply
 - define registry event model + amendment/finalization rules
 
-Built with teeth. (moon)
+Built with teeth. 🌑
