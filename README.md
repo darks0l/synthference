@@ -106,11 +106,15 @@ It may be a **synthetic right to future compute**, with programmable routing and
 - [Registry Event Model v0](./docs/registry-event-model-v0.md)
 - [Right Packaging and Secondary Market Semantics v0](./docs/right-packaging-and-secondary-markets-v0.md)
 - [Lifecycle Diagrams and Flow Guidance v0](./docs/lifecycle-diagrams-and-flow-guidance-v0.md)
+- [Synthference on Base Architecture v0](./docs/synthference-on-base-architecture-v0.md)
+- [Base Contract Surface v0](./docs/base-contract-surface-v0.md)
+- [Base Adapter and Finalization Model v0](./docs/base-adapter-and-finalization-model-v0.md)
 
 ## Next
 
 - tighten schema examples and add reference JSON fixtures
 - decide whether package objects belong in the base schema or stay as registry extensions
-- test one concrete implementation slice against the v0 documents
+- choose the right onchain right representation (`ERC-721`-like, `ERC-1155`-like, or custom registry)
+- prototype one concrete Base implementation slice (`RightRegistry` + `SettlementAnchor`)
 
 Built with teeth. 🌑
