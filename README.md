@@ -105,9 +105,12 @@ It may be a **synthetic right to future compute**, with programmable routing and
 - [Issuance Paths v0](./docs/issuance-paths-v0.md)
 - [Registry Event Model v0](./docs/registry-event-model-v0.md)
 - [Right Packaging and Secondary Market Semantics v0](./docs/right-packaging-and-secondary-markets-v0.md)
+- [Lifecycle Diagrams and Flow Guidance v0](./docs/lifecycle-diagrams-and-flow-guidance-v0.md)
 
 ## Next
 
-- add lifecycle diagrams and example flows to tighten implementer guidance
+- tighten schema examples and add reference JSON fixtures
+- decide whether package objects belong in the base schema or stay as registry extensions
+- test one concrete implementation slice against the v0 documents
 
 Built with teeth. 🌑
