@@ -149,6 +149,7 @@ Connects Synthference routing decisions to actual compute backends.
 - meter usage consistently
 - capture proofs / logs / outcomes
 - surface failure categories in normalized form
+- emit normalized execution receipt inputs
 
 ### Adapter targets
 - centralized inference APIs
@@ -323,8 +324,8 @@ That gives the cleanest implementation path and still supports markets and vault
 
 ## Near-term repo follow-ups
 
-- define normalized execution result schema
 - define settlement state machine
 - define supplier capability taxonomy
 - define dispute boundary and proof minimums
 - map request envelope validation into router stages
+- define receipt amendment / finalization rules

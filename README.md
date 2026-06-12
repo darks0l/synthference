@@ -80,14 +80,15 @@ It may be a **synthetic right to future compute**, with programmable routing and
 
 - [Schema v0](./docs/schema-v0.md)
 - [Request Envelope v0](./docs/request-envelope-v0.md)
+- [Execution Receipt v0](./docs/execution-receipt-v0.md)
 - [System Modules v0](./docs/system-modules-v0.md)
 
 ## Next
 
 - define the settlement state machine
-- define normalized execution result / receipt objects
 - define settlement proofs and dispute boundaries
 - map router policy to agent-native execution
+- define supplier capability taxonomy
 - compare issuance paths across centralized and decentralized supply
 
 Built with teeth. (moon)

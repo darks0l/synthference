@@ -5,6 +5,7 @@
 Define the execution-time object that **consumes or attempts to consume** a Synthference right.
 
 If `schema-v0` defines **what a right is**, the request envelope defines **how a holder invokes it**.
+The resulting execution should produce an [Execution Receipt v0](./execution-receipt-v0.md) object for settlement.
 
 ---
 
@@ -371,6 +372,12 @@ The effective execution policy should be computed as:
   - coordinator defaults
 
 This is important because it gives agents and apps local control without letting them exceed the bound of the right they actually hold.
+
+---
+
+## Settlement handoff
+
+A validated and executed request should emit exactly one canonical receipt object, even if execution spans multiple internal supplier legs. That receipt is the normalized handoff into settlement.
 
 ---
 
