@@ -1,6 +1,6 @@
 # Synthference
 
-**Synthetic inference rights** — a general primitive for representing, routing, and settling future compute access.
+**Synthetic inference rights** - a general primitive for representing, routing, and settling future compute access.
 
 ## What it is
 
@@ -47,14 +47,14 @@ That means:
 ## Primitive shape
 
 A right may define:
-- **capacity type** — text, image, video, embeddings, agent runtime, GPU-seconds
-- **priority** — premium, standard, background
-- **latency** — realtime, interactive, batch
-- **scope** — provider set, model family, privacy or jurisdiction constraints
-- **window** — start, expiry, or rolling epoch
-- **units** — requests, tokens, jobs, frames, seconds
-- **fallbacks** — acceptable substitutions if ideal execution is unavailable
-- **settlement** — full, fallback, partial, expired, failed
+- **capacity type** - text, image, video, embeddings, agent runtime, GPU-seconds
+- **priority** - premium, standard, background
+- **latency** - realtime, interactive, batch
+- **scope** - provider set, model family, privacy or jurisdiction constraints
+- **window** - start, expiry, or rolling epoch
+- **units** - requests, tokens, jobs, frames, seconds
+- **fallbacks** - acceptable substitutions if ideal execution is unavailable
+- **settlement** - full, fallback, partial, expired, failed
 
 ## Early framing
 
@@ -76,12 +76,17 @@ The right abstraction for inference may not be:
 
 It may be a **synthetic right to future compute**, with programmable routing and bounded settlement.
 
+## Spec
+
+- [Schema v0](./docs/schema-v0.md)
+- [System Modules v0](./docs/system-modules-v0.md)
+
 ## Next
 
-- formalize the right schema
-- define supplier and router roles
-- model settlement semantics
-- design rebalance / degradation logic
-- explore agent-native execution policies
+- refine the v0 schema into an implementable envelope
+- define settlement proofs and dispute boundaries
+- map router policy to agent-native execution
+- model rebalance and degradation paths under stress
+- compare issuance paths across centralized and decentralized supply
 
-Built with teeth. ??
+Built with teeth. (moon)
