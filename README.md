@@ -2,7 +2,7 @@
   <img src="./assets/synthference-banner.png" alt="Synthference banner" width="900" />
 </p>
 
-<h3 align="center">Built by DARKSOL dYO`</h3>
+<h3 align="center">Built by DARKSOL</h3>
 
 <h1 align="center">Synthference</h1>
 
@@ -97,13 +97,14 @@ It may be a **synthetic right to future compute**, with programmable routing and
 - [Execution Receipt v0](./docs/execution-receipt-v0.md)
 - [Settlement State Machine v0](./docs/settlement-state-machine-v0.md)
 - [System Modules v0](./docs/system-modules-v0.md)
+- [Supplier Capability Taxonomy v0](./docs/supplier-capability-taxonomy-v0.md)
 
 ## Next
 
 - define settlement proofs and dispute boundaries
 - map router policy to agent-native execution
-- define supplier capability taxonomy
 - compare issuance paths across centralized and decentralized supply
 - define registry event model + amendment/finalization rules
+- define right packaging and secondary market semantics
 
 Built with teeth. 🌑
