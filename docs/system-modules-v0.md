@@ -293,8 +293,8 @@ If building the first concrete version, I would start with:
 2. right becomes active in registry
 
 ### C. Execution
-1. holder submits inference request
-2. router checks valid rights
+1. holder submits a request envelope against one or more rights
+2. router validates rights, constraints, and fallback permissions
 3. router selects supply path
 4. adapter executes request
 5. metering layer records outcome
@@ -323,8 +323,8 @@ That gives the cleanest implementation path and still supports markets and vault
 
 ## Near-term repo follow-ups
 
-- define request envelope that consumes a right
 - define normalized execution result schema
 - define settlement state machine
 - define supplier capability taxonomy
 - define dispute boundary and proof minimums
+- map request envelope validation into router stages

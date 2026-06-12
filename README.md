@@ -79,14 +79,15 @@ It may be a **synthetic right to future compute**, with programmable routing and
 ## Spec
 
 - [Schema v0](./docs/schema-v0.md)
+- [Request Envelope v0](./docs/request-envelope-v0.md)
 - [System Modules v0](./docs/system-modules-v0.md)
 
 ## Next
 
-- refine the v0 schema into an implementable envelope
+- define the settlement state machine
+- define normalized execution result / receipt objects
 - define settlement proofs and dispute boundaries
 - map router policy to agent-native execution
-- model rebalance and degradation paths under stress
 - compare issuance paths across centralized and decentralized supply
 
 Built with teeth. (moon)
