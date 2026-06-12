@@ -103,10 +103,10 @@ It may be a **synthetic right to future compute**, with programmable routing and
 - [Worked Examples v0](./docs/worked-examples-v0.md)
 - [Agent Execution Policy v0](./docs/agent-execution-policy-v0.md)
 - [Issuance Paths v0](./docs/issuance-paths-v0.md)
+- [Registry Event Model v0](./docs/registry-event-model-v0.md)
 
 ## Next
 
-- define registry event model + amendment/finalization rules
 - define right packaging and secondary market semantics
 - add lifecycle diagrams and example flows to tighten implementer guidance
 
