@@ -1,0 +1,22 @@
+{
+  "name": "synthference",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Synthference protocol research and Solidity draft scaffolding",
+  "license": "MIT",
+  "scripts": {
+    "build": "hardhat compile",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "2.2.3",
+    "chai": "4.5.0",
+    "ethers": "5.7.2",
+    "hardhat": "2.22.17"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.2"
+  }
+}

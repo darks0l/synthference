@@ -397,7 +397,7 @@ contract RightRegistry is ERC721, AccessControl {
     }
 
     function metadataURIOf(uint256 rightId) external view returns (string memory) {
-        _requireOwned(rightId);
+        _requireRightOwner(rightId);
         return _metadataURIs[rightId];
     }
 
@@ -419,18 +419,18 @@ contract RightRegistry is ERC721, AccessControl {
         return super._update(to, tokenId, auth);
     }
 
-    function _requireOwned(uint256 rightId) internal view returns (address owner) {
+    function _requireRightOwner(uint256 rightId) internal view returns (address owner) {
         owner = _ownerOf(rightId);
         if (owner == address(0)) revert RightDoesNotExist(rightId);
     }
 
     function _requireRight(uint256 rightId) internal view returns (RightRecord storage right) {
-        _requireOwned(rightId);
+        _requireRightOwner(rightId);
         right = _rights[rightId];
     }
 
     function _requireRightView(uint256 rightId) internal view returns (RightRecord memory right) {
-        _requireOwned(rightId);
+        _requireRightOwner(rightId);
         right = _rights[rightId];
     }
 

@@ -118,7 +118,7 @@ It may be a **synthetic right to future compute**, with programmable routing and
 
 - tighten schema examples and add reference JSON fixtures
 - decide whether package objects belong in the base schema or stay as registry extensions
-- add compile/test scaffolding and validate the `RightRegistry` draft against OZ + Solidity 0.8.24
+- extend the current Hardhat validation lane with lifecycle, split, freeze, finalize, and transfer-gating tests
 - prototype one concrete Base implementation slice (`RightRegistry` + `SettlementAnchor`)
 
 Built with teeth. 🌑
