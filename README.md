@@ -109,12 +109,16 @@ It may be a **synthetic right to future compute**, with programmable routing and
 - [Synthference on Base Architecture v0](./docs/synthference-on-base-architecture-v0.md)
 - [Base Contract Surface v0](./docs/base-contract-surface-v0.md)
 - [Base Adapter and Finalization Model v0](./docs/base-adapter-and-finalization-model-v0.md)
+- [Onchain Right Representation v0](./docs/onchain-right-representation-v0.md)
+- [RightRegistry Object Model v0](./docs/right-registry-object-model-v0.md)
+- [RightRegistry Solidity Surface v0](./docs/right-registry-solidity-surface-v0.md)
+- [RightRegistry contract draft](./contracts/RightRegistry.sol)
 
 ## Next
 
 - tighten schema examples and add reference JSON fixtures
 - decide whether package objects belong in the base schema or stay as registry extensions
-- choose the right onchain right representation (`ERC-721`-like, `ERC-1155`-like, or custom registry)
+- add compile/test scaffolding and validate the `RightRegistry` draft against OZ + Solidity 0.8.24
 - prototype one concrete Base implementation slice (`RightRegistry` + `SettlementAnchor`)
 
 Built with teeth. 🌑
